@@ -1,0 +1,10 @@
+click
+pylint
+pytest
+pytest-cov
+boto3
+ipython
+flask
+python-dotenv
+matplotlib
+boto3
