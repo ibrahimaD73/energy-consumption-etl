@@ -1,0 +1,217 @@
+2024-10-13 15:24:51.702 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:24:52.828 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:24:57.668 | INFO     | __main__:index:95 - Requête reçue pour la page d'accueil
+2024-10-13 15:24:58.250 | INFO     | __main__:data:100 - Requête reçue pour les données du dashboard
+2024-10-13 15:24:58.250 | INFO     | __main__:analyze_data:63 - Début de l'analyse des données
+2024-10-13 15:24:58.251 | INFO     | __main__:load_and_prepare_data:18 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 15:24:58.257 | DEBUG    | __main__:load_and_prepare_data:22 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 15:24:58.259 | INFO     | __main__:process_series:43 - Traitement de la série Corrigée
+2024-10-13 15:24:58.259 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:24:58.260 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:24:58.261 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:24:58.407 | DEBUG    | __main__:process_series:58 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 15:24:58.408 | INFO     | __main__:process_series:43 - Traitement de la série Brute
+2024-10-13 15:24:58.408 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:24:58.409 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:24:58.410 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:24:58.585 | DEBUG    | __main__:process_series:58 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 15:24:58.586 | INFO     | __main__:analyze_data:89 - Analyse des données terminée
+2024-10-13 15:24:58.587 | DEBUG    | __main__:analyze_data:90 - Taille des données JSON : 12296 caractères
+2024-10-13 15:24:58.588 | INFO     | __main__:data:103 - Données du dashboard générées avec succès
+2024-10-13 15:29:22.329 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:29:23.502 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:29:25.407 | INFO     | __main__:index:95 - Requête reçue pour la page d'accueil
+2024-10-13 15:29:25.951 | INFO     | __main__:data:100 - Requête reçue pour les données du dashboard
+2024-10-13 15:29:25.952 | INFO     | __main__:analyze_data:63 - Début de l'analyse des données
+2024-10-13 15:29:25.952 | INFO     | __main__:load_and_prepare_data:18 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 15:29:25.958 | DEBUG    | __main__:load_and_prepare_data:22 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 15:29:25.960 | INFO     | __main__:process_series:43 - Traitement de la série Corrigée
+2024-10-13 15:29:25.960 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:29:25.961 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:29:25.962 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:29:26.111 | DEBUG    | __main__:process_series:58 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 15:29:26.112 | INFO     | __main__:process_series:43 - Traitement de la série Brute
+2024-10-13 15:29:26.112 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:29:26.114 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:29:26.115 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:29:26.295 | DEBUG    | __main__:process_series:58 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 15:29:26.297 | INFO     | __main__:analyze_data:89 - Analyse des données terminée
+2024-10-13 15:29:26.299 | DEBUG    | __main__:analyze_data:90 - Taille des données JSON : 12296 caractères
+2024-10-13 15:29:26.300 | INFO     | __main__:data:103 - Données du dashboard générées avec succès
+2024-10-13 15:29:52.796 | INFO     | __main__:index:95 - Requête reçue pour la page d'accueil
+2024-10-13 15:29:52.947 | INFO     | __main__:data:100 - Requête reçue pour les données du dashboard
+2024-10-13 15:29:52.948 | INFO     | __main__:analyze_data:63 - Début de l'analyse des données
+2024-10-13 15:29:52.948 | INFO     | __main__:load_and_prepare_data:18 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 15:29:52.988 | DEBUG    | __main__:load_and_prepare_data:22 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 15:29:52.990 | INFO     | __main__:process_series:43 - Traitement de la série Corrigée
+2024-10-13 15:29:52.990 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:29:52.991 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:29:52.992 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:29:53.132 | DEBUG    | __main__:process_series:58 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 15:29:53.133 | INFO     | __main__:process_series:43 - Traitement de la série Brute
+2024-10-13 15:29:53.133 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:29:53.134 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:29:53.135 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:29:53.349 | DEBUG    | __main__:process_series:58 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 15:29:53.351 | INFO     | __main__:analyze_data:89 - Analyse des données terminée
+2024-10-13 15:29:53.352 | DEBUG    | __main__:analyze_data:90 - Taille des données JSON : 12296 caractères
+2024-10-13 15:29:53.352 | INFO     | __main__:data:103 - Données du dashboard générées avec succès
+2024-10-13 15:34:58.048 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:34:59.161 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:35:00.875 | INFO     | __main__:index:95 - Requête reçue pour la page d'accueil
+2024-10-13 15:35:01.431 | INFO     | __main__:data:100 - Requête reçue pour les données du dashboard
+2024-10-13 15:35:01.432 | INFO     | __main__:analyze_data:63 - Début de l'analyse des données
+2024-10-13 15:35:01.432 | INFO     | __main__:load_and_prepare_data:18 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 15:35:01.438 | DEBUG    | __main__:load_and_prepare_data:22 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 15:35:01.440 | INFO     | __main__:process_series:43 - Traitement de la série Corrigée
+2024-10-13 15:35:01.441 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:35:01.442 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:35:01.442 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:35:01.590 | DEBUG    | __main__:process_series:58 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 15:35:01.591 | INFO     | __main__:process_series:43 - Traitement de la série Brute
+2024-10-13 15:35:01.591 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:35:01.592 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:35:01.593 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:35:01.810 | DEBUG    | __main__:process_series:58 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 15:35:01.812 | INFO     | __main__:analyze_data:89 - Analyse des données terminée
+2024-10-13 15:35:01.813 | DEBUG    | __main__:analyze_data:90 - Taille des données JSON : 12296 caractères
+2024-10-13 15:35:01.813 | INFO     | __main__:data:103 - Données du dashboard générées avec succès
+2024-10-13 15:50:45.316 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:50:46.422 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:50:48.403 | INFO     | __main__:index:95 - Requête reçue pour la page d'accueil
+2024-10-13 15:51:20.923 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:51:21.966 | INFO     | __main__:<module>:110 - Démarrage de l'application Flask
+2024-10-13 15:51:27.803 | INFO     | __main__:index:95 - Requête reçue pour la page d'accueil
+2024-10-13 15:51:28.198 | INFO     | __main__:data:100 - Requête reçue pour les données du dashboard
+2024-10-13 15:51:28.198 | INFO     | __main__:analyze_data:63 - Début de l'analyse des données
+2024-10-13 15:51:28.199 | INFO     | __main__:load_and_prepare_data:18 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 15:51:28.205 | DEBUG    | __main__:load_and_prepare_data:22 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 15:51:28.207 | INFO     | __main__:process_series:43 - Traitement de la série Corrigée
+2024-10-13 15:51:28.207 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:51:28.208 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:51:28.209 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:51:28.354 | DEBUG    | __main__:process_series:58 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 15:51:28.354 | INFO     | __main__:process_series:43 - Traitement de la série Brute
+2024-10-13 15:51:28.355 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:51:28.356 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:51:28.357 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:51:28.531 | DEBUG    | __main__:process_series:58 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 15:51:28.533 | INFO     | __main__:analyze_data:89 - Analyse des données terminée
+2024-10-13 15:51:28.534 | DEBUG    | __main__:analyze_data:90 - Taille des données JSON : 12296 caractères
+2024-10-13 15:51:28.534 | INFO     | __main__:data:103 - Données du dashboard générées avec succès
+2024-10-13 15:53:33.175 | INFO     | __main__:index:95 - Requête reçue pour la page d'accueil
+2024-10-13 15:53:33.722 | INFO     | __main__:data:100 - Requête reçue pour les données du dashboard
+2024-10-13 15:53:33.722 | INFO     | __main__:analyze_data:63 - Début de l'analyse des données
+2024-10-13 15:53:33.722 | INFO     | __main__:load_and_prepare_data:18 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 15:53:33.770 | DEBUG    | __main__:load_and_prepare_data:22 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 15:53:33.772 | INFO     | __main__:process_series:43 - Traitement de la série Corrigée
+2024-10-13 15:53:33.772 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:53:33.773 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:53:33.773 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:53:33.968 | DEBUG    | __main__:process_series:58 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 15:53:33.968 | INFO     | __main__:process_series:43 - Traitement de la série Brute
+2024-10-13 15:53:33.969 | INFO     | __main__:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 15:53:33.970 | INFO     | __main__:make_stationary:31 - Transformation des données en série stationnaire
+2024-10-13 15:53:33.971 | INFO     | __main__:arima_forecast:36 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 15:53:34.320 | DEBUG    | __main__:process_series:58 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 15:53:34.324 | INFO     | __main__:analyze_data:89 - Analyse des données terminée
+2024-10-13 15:53:34.325 | DEBUG    | __main__:analyze_data:90 - Taille des données JSON : 12296 caractères
+2024-10-13 15:53:34.326 | INFO     | __main__:data:103 - Données du dashboard générées avec succès
+2024-10-13 16:10:22.763 | INFO     | main:index:102 - Requête reçue pour la page d'accueil
+2024-10-13 16:10:22.775 | INFO     | main:get_data:108 - Requête reçue pour les données du dashboard
+2024-10-13 16:10:22.776 | INFO     | main:analyze_data:65 - Début de l'analyse des données
+2024-10-13 16:10:22.776 | INFO     | main:load_and_prepare_data:17 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:10:22.802 | DEBUG    | main:load_and_prepare_data:21 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:10:22.805 | INFO     | main:process_series:44 - Traitement de la série Corrigée
+2024-10-13 16:10:22.805 | INFO     | main:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 16:10:22.807 | INFO     | main:make_stationary:32 - Transformation des données en série stationnaire
+2024-10-13 16:10:22.808 | INFO     | main:arima_forecast:37 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:10:23.027 | DEBUG    | main:process_series:59 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 16:10:23.028 | INFO     | main:process_series:44 - Traitement de la série Brute
+2024-10-13 16:10:23.028 | INFO     | main:deseasonalize:26 - Désaisonnalisation des données
+2024-10-13 16:10:23.030 | INFO     | main:make_stationary:32 - Transformation des données en série stationnaire
+2024-10-13 16:10:23.031 | INFO     | main:arima_forecast:37 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:10:23.281 | DEBUG    | main:process_series:59 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 16:10:23.283 | INFO     | main:analyze_data:95 - Analyse des données terminée
+2024-10-13 16:10:23.285 | DEBUG    | main:analyze_data:96 - Taille des données JSON : 12296 caractères
+2024-10-13 16:10:23.285 | INFO     | main:get_data:111 - Données du dashboard générées avec succès
+2024-10-13 16:10:23.290 | INFO     | main:load_and_prepare_data:17 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:10:23.298 | DEBUG    | main:load_and_prepare_data:21 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:12:13.264 | INFO     | main:index:91 - Requête reçue pour la page d'accueil
+2024-10-13 16:12:13.271 | INFO     | main:get_data:96 - Requête reçue pour les données du dashboard
+2024-10-13 16:12:13.271 | INFO     | main:analyze_data:59 - Début de l'analyse des données
+2024-10-13 16:12:13.272 | INFO     | main:load_and_prepare_data:16 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:12:13.290 | DEBUG    | main:load_and_prepare_data:20 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:12:13.293 | INFO     | main:process_series:39 - Traitement de la série Corrigée
+2024-10-13 16:12:13.293 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:12:13.295 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:12:13.296 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:12:13.484 | DEBUG    | main:process_series:54 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 16:12:13.484 | INFO     | main:process_series:39 - Traitement de la série Brute
+2024-10-13 16:12:13.484 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:12:13.487 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:12:13.487 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:12:13.697 | DEBUG    | main:process_series:54 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 16:12:13.699 | INFO     | main:analyze_data:85 - Analyse des données terminée
+2024-10-13 16:12:13.700 | DEBUG    | main:analyze_data:86 - Taille des données JSON : 12296 caractères
+2024-10-13 16:12:13.700 | INFO     | main:get_data:99 - Données du dashboard générées avec succès
+2024-10-13 16:12:13.705 | INFO     | main:load_and_prepare_data:16 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:12:13.713 | DEBUG    | main:load_and_prepare_data:20 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:13:06.635 | INFO     | main:index:91 - Requête reçue pour la page d'accueil
+2024-10-13 16:13:06.641 | INFO     | main:get_data:96 - Requête reçue pour les données du dashboard
+2024-10-13 16:13:06.642 | INFO     | main:analyze_data:59 - Début de l'analyse des données
+2024-10-13 16:13:06.642 | INFO     | main:load_and_prepare_data:16 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:13:06.661 | DEBUG    | main:load_and_prepare_data:20 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:13:06.664 | INFO     | main:process_series:39 - Traitement de la série Corrigée
+2024-10-13 16:13:06.665 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:13:06.667 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:13:06.667 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:13:06.848 | DEBUG    | main:process_series:54 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 16:13:06.849 | INFO     | main:process_series:39 - Traitement de la série Brute
+2024-10-13 16:13:06.849 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:13:06.851 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:13:06.852 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:13:07.058 | DEBUG    | main:process_series:54 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 16:13:07.060 | INFO     | main:analyze_data:85 - Analyse des données terminée
+2024-10-13 16:13:07.061 | DEBUG    | main:analyze_data:86 - Taille des données JSON : 12296 caractères
+2024-10-13 16:13:07.062 | INFO     | main:get_data:99 - Données du dashboard générées avec succès
+2024-10-13 16:13:07.066 | INFO     | main:load_and_prepare_data:16 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:13:07.074 | DEBUG    | main:load_and_prepare_data:20 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:13:46.354 | INFO     | main:index:91 - Requête reçue pour la page d'accueil
+2024-10-13 16:13:46.360 | INFO     | main:get_data:96 - Requête reçue pour les données du dashboard
+2024-10-13 16:13:46.361 | INFO     | main:analyze_data:59 - Début de l'analyse des données
+2024-10-13 16:13:46.361 | INFO     | main:load_and_prepare_data:16 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:13:46.379 | DEBUG    | main:load_and_prepare_data:20 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:13:46.382 | INFO     | main:process_series:39 - Traitement de la série Corrigée
+2024-10-13 16:13:46.382 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:13:46.385 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:13:46.385 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:13:46.595 | DEBUG    | main:process_series:54 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 16:13:46.595 | INFO     | main:process_series:39 - Traitement de la série Brute
+2024-10-13 16:13:46.596 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:13:46.598 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:13:46.599 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:13:46.807 | DEBUG    | main:process_series:54 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 16:13:46.809 | INFO     | main:analyze_data:85 - Analyse des données terminée
+2024-10-13 16:13:46.811 | DEBUG    | main:analyze_data:86 - Taille des données JSON : 12296 caractères
+2024-10-13 16:13:46.811 | INFO     | main:get_data:99 - Données du dashboard générées avec succès
+2024-10-13 16:13:46.816 | INFO     | main:load_and_prepare_data:16 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:13:46.824 | DEBUG    | main:load_and_prepare_data:20 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:13:54.818 | INFO     | main:index:91 - Requête reçue pour la page d'accueil
+2024-10-13 16:13:55.397 | INFO     | main:get_data:96 - Requête reçue pour les données du dashboard
+2024-10-13 16:13:55.398 | INFO     | main:analyze_data:59 - Début de l'analyse des données
+2024-10-13 16:13:55.398 | INFO     | main:load_and_prepare_data:16 - Chargement des données depuis Evolution_de_la_consommation.csv
+2024-10-13 16:13:55.404 | DEBUG    | main:load_and_prepare_data:20 - Données chargées : 714 lignes, 3 colonnes
+2024-10-13 16:13:55.406 | INFO     | main:process_series:39 - Traitement de la série Corrigée
+2024-10-13 16:13:55.406 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:13:55.408 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:13:55.409 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:13:55.578 | DEBUG    | main:process_series:54 - RMSE pour Corrigée: 1.568933829796692
+2024-10-13 16:13:55.579 | INFO     | main:process_series:39 - Traitement de la série Brute
+2024-10-13 16:13:55.579 | INFO     | main:deseasonalize:24 - Désaisonnalisation des données
+2024-10-13 16:13:55.580 | INFO     | main:make_stationary:29 - Transformation des données en série stationnaire
+2024-10-13 16:13:55.581 | INFO     | main:arima_forecast:33 - Prévision ARIMA avec ordre (1, 1, 1) pour 24 périodes
+2024-10-13 16:13:55.762 | DEBUG    | main:process_series:54 - RMSE pour Brute: 1.2290429459548113
+2024-10-13 16:13:55.764 | INFO     | main:analyze_data:85 - Analyse des données terminée
+2024-10-13 16:13:55.765 | DEBUG    | main:analyze_data:86 - Taille des données JSON : 12296 caractères
+2024-10-13 16:13:55.765 | INFO     | main:get_data:99 - Données du dashboard générées avec succès

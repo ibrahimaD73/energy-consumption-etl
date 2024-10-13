@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse de la Consommation Électrique en France</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Analyse de la Consommation Électrique en France</h1>
+            <nav id="main-nav">
+                <button id="overviewBtn" class="nav-btn active" aria-pressed="true"><i class="fas fa-home"></i> Vue d'ensemble</button>
+                <button id="forecastBtn" class="nav-btn" aria-pressed="false"><i class="fas fa-chart-line"></i> Prévisions</button>
+                <button id="comparisonBtn" class="nav-btn" aria-pressed="false"><i class="fas fa-balance-scale"></i> Comparaison</button>
+                <button id="insightsBtn" class="nav-btn" aria-pressed="false"><i class="fas fa-lightbulb"></i> Insights</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="overviewSection" class="active" aria-labelledby="overviewTitle">
+                <h2 id="overviewTitle">Vue d'ensemble de la consommation</h2>
+                <div class="chart-container">
+                    <canvas id="overviewChart"></canvas>
+                </div>
+                <div class="key-metrics">
+                    <div class="metric">
+                        <h3>Consommation Moyenne</h3>
+                        <p id="avgConsumption" aria-live="polite">Chargement...</p>
+                    </div>
+                    <div class="metric">
+                        <h3>Tendance Annuelle</h3>
+                        <p id="yearlyTrend" aria-live="polite">Chargement...</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="forecastSection" aria-labelledby="forecastTitle">
+                <h2 id="forecastTitle">Prévisions de consommation</h2>
+                <div class="chart-container">
+                    <canvas id="forecastChart"></canvas>
+                </div>
+                <div class="forecast-accuracy">
+                    <h3>Précision du modèle</h3>
+                    <p>RMSE: <span id="rmseValue" aria-live="polite">Chargement...</span></p>
+                </div>
+            </section>
+
+            <section id="comparisonSection" aria-labelledby="comparisonTitle">
+                <h2 id="comparisonTitle">Comparaison des consommations</h2>
+                <div class="chart-container">
+                    <canvas id="comparisonChart"></canvas>
+                </div>
+            </section>
+
+            <section id="insightsSection" aria-labelledby="insightsTitle">
+                <h2 id="insightsTitle">Insights clés</h2>
+                <div class="insights-container">
+                    <div class="insight-card">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Pic de consommation</h3>
+                        <p id="peakConsumption" aria-live="polite">Chargement...</p>
+                    </div>
+                    <div class="insight-card">
+                        <i class="fas fa-piggy-bank"></i>
+                        <h3>Économie potentielle</h3>
+                        <p id="potentialSavings" aria-live="polite">Chargement...</p>
+                    </div>
+                    <div class="insight-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Impact environnemental</h3>
+                        <p id="environmentalImpact" aria-live="polite">Chargement...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Analyse de Consommation Électrique. Tous droits réservés.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>

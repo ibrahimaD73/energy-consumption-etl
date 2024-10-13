@@ -8,3 +8,11 @@ flask
 python-dotenv
 matplotlib
 boto3
+pandas
+numpy
+statsmodels
+matplotlib
+scikit-learn
+seaborn 
+flask
+loguru
