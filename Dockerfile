@@ -13,6 +13,3 @@ EXPOSE 7000
 ENV FLASK_APP=main.py
 
 CMD ["flask", "run", "--host=0.0.0.0", "--port=7000"]
-
-
-exec -l $SHELL
